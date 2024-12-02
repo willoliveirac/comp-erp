@@ -1,0 +1,31 @@
+/* src/styles/TabelaProdutos.css */
+.tabela-produtos {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.tabela-produtos table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela-produtos th,
+.tabela-produtos td {
+  padding: 12px;
+  text-align: left;
+}
+
+.tabela-produtos th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.tabela-produtos tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tabela-produtos tr:hover {
+  background-color: #ddd;
+}

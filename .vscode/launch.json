@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-PrjcsApplication<prjcs>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.example.willoliveira.prjcs.PrjcsApplication",
+      "projectName": "prjcs",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
